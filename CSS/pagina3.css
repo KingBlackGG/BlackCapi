@@ -1,0 +1,50 @@
+.contenedor{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1460px;
+    grid-template-rows: 0px 500px 350px 50px;
+    display: grid;
+    grid-template-areas: 
+    'enc'
+    'Menu'
+    'Menu'
+    'pie'
+    ;
+}
+img{
+    width: 450px;
+    height: 250px;
+}
+
+.img1{
+    width: 1460px;
+    height: 350px;
+}
+
+main{
+    background-color: rgb(51, 181, 221);
+    grid-area: Menu;
+    color: rgb(11, 12, 31);
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    grid-area: pie;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+
+}
+
+table, td{
+    border: 1px;
+    border-collapse: collapse;
+    margin: auto;
+    border-color: darkgoldenrod;
+}

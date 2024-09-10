@@ -1,0 +1,66 @@
+.contenedor{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 370px 370px 370px 370px;
+    grid-template-rows: 0px 500px 350px 50px;
+    display: grid;
+    grid-template-areas: 
+    'enc enc enc enc'
+    'Menu con con con'
+    'Menu con con con'
+    'pie pie pie pie'
+    ;
+}
+
+main{
+    background-color: rgb(51, 181, 221);
+    grid-area: Menu;
+    text-align: center;
+    color: rgb(11, 12, 31);
+}
+ 
+nav{
+    background-color: rgb(11, 12, 31);
+    grid-area: con;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    grid-area: pie;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+
+.imagen{
+    width: 250px;
+    height: 120px;
+}
+
+img{
+    width: 1480px;
+    height: 350px;
+}
+
+a{
+    text-decoration: none;
+    color: gold;
+}
+
+li{
+    display: inline;
+}
+
+h4{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+table,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: auto;
+    border-color: rgb(11, 129, 184);
+    background-color: rgb(11, 12, 31);
+    color: white;
+}
